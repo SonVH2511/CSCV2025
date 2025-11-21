@@ -4,6 +4,8 @@
 
 Nah, cay mỗi bài này nên viết thôi. À thì lúc mình làm bài này cũng cuống vl méo hiểu sao ngta solve nhanh thế. Lúc biết là string grep ra flag thì caydodai.
 
+![Uploading image.png…]()
+
 Không bàn đến việc unintend nó nữa, wu này trình bày cách mình tiếp cận chall này.
 
 Challenge cho ta 1 file mem với mô tả, dựa theo mô tả thì ta cần target vào tiến trình là nguyên nhân dẫn đến crash?
