@@ -186,10 +186,10 @@ Option 2 thì dễ đoán là ngược lại -> chức năng write vào 1 node t
 
 #### Mech
 
-Tóm lại: aPersonalVault.exe và personalVaultKernel.sys giao tiếp với nhau.
+Tóm lại: `aPersonalVault.exe` và `personalVaultKernel.sys` giao tiếp với nhau.
 
-aPersonalVault.exe thực hiện tạo user, gửi thông tin save/query check.
-personalVaultKernel.sys thực hiện lưu trữ, handle các tín hiệu được gửi đến với con exe
+`aPersonalVault.exe` thực hiện tạo user, gửi thông tin save/query check.
+`personalVaultKernel.sys` thực hiện lưu trữ, handle các thông tin được gửi đến từ con exe.
 
 Tổng quan thì ta có 2 user chạy 1 chương trình 1, thằng thì push cipher lên trước còn 1 thằng thì check rồi làm crash..., nên dù địa chỉ vật lý chỉ ra là giống nhau nhưng VA sẽ khác, giờ target là mò đến cả 2 để lấy key và iv ra.
 
@@ -347,7 +347,7 @@ Nếu không dính, nó sẽ thực hiện hook vào `NtConvertBetweenAuxiliaryC
 
 Làm bài có antidebug trong init không biết bao nhiêu lần rồi mà vẫn dính thì do ngu thôi biết sao giờ.
 
-Giờ thì rõ rồi, ct dump ra từ mem của con .sys cần xor thêm với key `CSCV2025`.
+Giờ thì rõ rồi, ct dump ra từ mem của con `.sys` cần xor thêm với key `CSCV2025`.
 
 Và cần làm theo luồng chương trình để lấy flag(đoạn này kịch bản hơi điêu vì key/iv gen ra random mà lại decrypt ra flag bằng cách check?)-thì ta sẽ xor rồi encrypt bằng key/iv đầu tiên(vì key/iv đầu tiên có thể decrypt ra `Plaintext: Touch this or I'll kill you without blinking, please don't do this` mà không lỗi)
 rồi tiếp đến là thao tác check của user hiện tại làm crash, ta sẽ decrypt bằng cặp key iv còn lại để hoàn thành thao tác decrypt sau check).
