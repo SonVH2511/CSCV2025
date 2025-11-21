@@ -323,7 +323,9 @@ tại `FFFFA20FA2FD0190`.
 
 #### Decrypt
 
-Giờ thì decrypt ra 1 bộ, bộ còn lại thì không decrypt ra. Tới đây bắt đầu ngố@@
+Giờ thì decrypt ra 1 bộ, bộ còn lại thì không decrypt ra. Tới đây bắt đầu ngố@@. 
+
+Đoạn này bắt đầu suy diễn rồi dò stack của từng con `vault.exe` vì nghĩ khả năng tạo nhiều user nên bị mất key/iv các kiểu nma tất nhiên là không đúng.
 
 ![alt text](IMG/image-18.png)
 
