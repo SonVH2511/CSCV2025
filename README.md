@@ -329,7 +329,7 @@ Giờ thì decrypt ra 1 bộ, bộ còn lại thì không decrypt ra. Tới đâ
 
 Đoạn này bắt đầu suy diễn rồi dò stack của từng con `vault.exe` vì nghĩ khả năng tạo nhiều user nên bị mất key/iv các kiểu nma tất nhiên là không đúng.
 
-Nah giờ ngẫm lại thì decrypt ra rõ ràng là hint rằng mình đang đi sai rồi mà cuống wa.
+Nah giờ ngẫm lại thì nội dung decrypt ra rõ ràng là hint rằng mình đang đi sai rồi mà cuống wa.
 
 #### Antidebug
 
