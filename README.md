@@ -359,3 +359,10 @@ CSCV2025{one_day_all_revs_will_not_have_crypto_anymore}
 ## Tổng kết
 
 :D Dm plot liên tục(do gà không nhận ra).
+
+### Hi vọng WRITEUP này giúp ích cho các bạn :D
+
+```
+from KCSC
+Author: SonVH
+```
