@@ -191,6 +191,8 @@ Tóm lại: aPersonalVault.exe và personalVaultKernel.sys giao tiếp với nha
 aPersonalVault.exe thực hiện tạo user, gửi thông tin save/query check.
 personalVaultKernel.sys thực hiện lưu trữ, handle các tín hiệu được gửi đến với con exe
 
+Tổng quan thì ta có 2 user chạy 1 chương trình 1 thằng thì push giá trị lên trước còn 1 thằng thì check, nên dù địa chỉ vật lý chỉ ra là giống nhau nhưng VA sẽ khác, giờ target là mò đến cả 2 để lấy key và iv ra.
+
 #### Gather data
 
 Ờ thì cơ bản là phân tích xong rồi, đi nhặt data thôi.
