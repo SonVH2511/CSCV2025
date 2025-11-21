@@ -268,7 +268,9 @@ You should also verify that your symbol search path (.sympath) is correct.
 00007ff6`73bbdc30  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
 00007ff6`73bbdc40  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
 
-
+-> key: "D4 B6 C8 13 80 1D 55 8B 85 99 5E E5 90 54 00 9F 4A 8E 8A F1 79 4F EC 77 70 AB B9 EB F8 68 5C 0A"
+   iv: "21 EC 72 B5 5E 9E 8D CC A3 CB D4 58 DA D5 28 93"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9: kd> .process /r /p ffff9a03b33bb080
 Implicit process is now ffff9a03`b33bb080
 Loading User Symbols
@@ -297,6 +299,9 @@ You should also verify that your symbol search path (.sympath) is correct.
 00007ff6`73bbdc20  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
 00007ff6`73bbdc30  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
 00007ff6`73bbdc40  00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00  ................
+
+-> key: "c7 07 b1 8b f4 fb 52 11 d1 cb da 2c ac 92 0b c7 b6 30 61 a1 09 c3 ca 74 94 0c a3 ad bf db 10 1f"
+   iv: "fc 80 59 c0 53 4b d9 f1 86 7c e0 9a 16 c7 fc 65"
 ```
 
 Làm tương tự với con `.sys` để lấy cipher vì con trỏ `List` của nó cũng được lưu trong `.data`
