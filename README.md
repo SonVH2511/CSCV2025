@@ -327,7 +327,7 @@ Giờ thì decrypt ra 1 bộ, bộ còn lại thì không decrypt ra. Tới đâ
 
 ![alt text](IMG/image-18.png)
 
-Đoạn này bắt đầu suy diễn rồi dò stack của từng con `vault.exe` vì nghĩ khả năng tạo nhiều user nên bị mất key/iv các kiểu nma tất nhiên là không đúng.
+Đoạn này bắt đầu suy diễn rồi dò stack của từng con `vault.exe` vì nghĩ khả năng tạo nhiều user nên bị mất key/iv các kiểu nma tất nhiên là không đúng. Sau 1 hồi thì chết não -> làm khùng làm điên -> hết giờ -> nhót.
 
 Nah giờ ngẫm lại thì nội dung decrypt ra rõ ràng là hint rằng mình đang đi sai rồi mà cuống wa.
 
