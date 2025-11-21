@@ -236,7 +236,7 @@ Nhảy đến và lấy địa chỉ của key.
 
 ![alt text](IMG/image-13.png)
 
-Rồi giờ nhặt key iv từ địa chỉ đó thôi.
+Rồi giờ nhặt key iv từ địa chỉ đó của từng con vault.exe một thôi.
 
 ```
 9: kd> .process /r /p ffff9a03b53130c0
